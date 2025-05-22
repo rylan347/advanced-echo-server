@@ -1,0 +1,12 @@
+[package]
+name = "echo_server_threads"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "echo_server_threads"
+crate-type = ["cdylib"]  
+
+[dependencies]
+threadpool = "1.8.1"
+libc = "0.2.153"
